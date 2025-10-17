@@ -1,0 +1,140 @@
+
+/*
+=============== 
+Navbar
+===============
+*/
+* {
+    margin: none;
+    box-sizing: border-box;
+        scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-image: url(./images/bg3.png);
+        /* background-image: url(./images/bg.jpg); */
+    background-repeat: repeat;
+
+}
+
+
+nav {
+    display: flex;
+    width: 90%;
+    background-color: beige;
+    margin: auto;
+    height: 60px;
+    background-image: url(./images/background2.png);
+background-color:#025AB2; ;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 50px;
+
+}
+
+.logo {
+    transition: 0.7s;
+    height: 60px;
+    width: 70px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+ul{
+    width:100%;
+  display: flex;  
+justify-content: end;
+  margin: auto;
+}
+ul li {
+    display: inline;
+    margin: 0 30px;
+    color: whitesmoke;
+    font-weight: bold;
+
+    transition: 0.3s;
+
+
+}
+
+ul li:hover {
+
+    font-weight: lighter;
+    cursor: pointer;
+    color: rgba(245, 245, 245, 0.521);
+}
+
+ul a {
+    text-decoration: none;
+}
+
+.sign-bt{
+  background-color: rgb(49, 167, 49);
+  padding: 13%;
+  border-radius: 16px;
+  font-size:large;
+  font-weight: bold;
+      transition: 0.7s;
+
+}
+.sign-bt:hover{
+    background-color: rgb(8, 146, 8);
+        cursor: pointer;
+        font-weight: bold;
+}
+.hero{
+    padding-top: 150px;
+   width: 80vw;
+   height:90vh;
+   display: flex;
+   margin: auto;
+   justify-content: space-between;
+
+}
+.hero h1{
+        
+    margin-left: 25%;
+    text-align: center;
+    color: rgb(173, 89, 89);
+    font-size:6.4rem;
+    display: inline;
+}
+.hero span{
+    color:#32CE03;
+}
+.hero h2 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.658);
+    font-size: 1.5rem;
+    margin-top: 150px;
+}
+.start-lreaning-btn {
+    display: flex;
+    justify-content: center;
+}
+.hero a{
+ 
+    text-decoration: none;
+    background-color: #025AB2;
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 20px;
+    border-radius: 30px;
+    transition: 0.3s;
+
+}
+.hero a:hover{
+        cursor: pointer;
+            background-color: #2a8636cb;
+
+
+}
+.hero img{
+
+/* width: 60%; */
+height: 80%;
+    border-radius: 30px;
+}
