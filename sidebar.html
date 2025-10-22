@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الكيمياء العضوية - تطبيق SPA</title>
+    <link rel="stylesheet" href="./style/sidebar.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <main class="main-content">
+            <div id="app-content" class="content-card fade-in">
+                <!-- سيتم تحميل المحتوى هنا -->
+            </div>
+        </main>
+
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h1>الكيمياء</h1>
+                <div class="subtitle">العضوية الأساسية</div>
+            </div>
+
+            <div class="nav-group">
+                <h2>الهيدروكربونات</h2>
+                <a href="#/alkanes" class="nav-link" data-path="alkanes">الألكانات</a>
+                <a href="#/alkenes" class="nav-link" data-path="alkenes">الألكينات </a>
+                <a href="#/alkynes" class="nav-link" data-path="alkynes">الألكاينات</a>
+                <a href="#/aromatic" class="nav-link" data-path="aromatic">المركبات الأروماتية</a>
+            </div>
+
+            <div class="nav-group">
+                <h2>المجموعات الوظيفية</h2>
+                <a href="#/alcohols" class="nav-link" data-path="alcohols">الكحولات (Alcohols)</a>
+                <a href="#/ethers" class="nav-link" data-path="ethers">الإيثرات (Ethers)</a>
+                <a href="#/carbonyl" class="nav-link" data-path="carbonyl">الكربونيل (ألدهيدات/كيتونات)</a>
+                <a href="#/carboxylic" class="nav-link" data-path="carboxylic">الأحماض الكربوكسيلية</a>
+                <a href="#/derivatives" class="nav-link" data-path="derivatives">مشتقات الأحماض (إسترات/أميدات)</a>
+            </div>
+        </nav>
+    </div>
+
+    <script src="./js/sidebar.js"></script>
+</body>
+
+</html>
